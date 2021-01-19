@@ -34,7 +34,7 @@ def normalize(input_string):
              'extra space'
     """
 
-    normalized_string = ' '.join(input_string.strip.lower.split())
+    normalized_string = ' '.join(input_string.strip().lower().split())
     return normalized_string
 
 
